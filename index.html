@@ -2,25 +2,35 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <title>Plasol-Games Portfolio</title>
-       
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <title>Plasol-Games Portfolio</title>    
     </head>
-    <body>
-        <header>
-            <img id="imageLogo" src="images/logo.png" >
-        </header>
+    <body class="body">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-        <div class="container">
-            <h2>I'm 
-                <span class="name">Manuel</span>       
-                , a game and software developer. Expert in using Unity, programming in C#, and developing 2D and 3D graphic software.
-            </h2>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><img id="imageLogo" class="img-fluid" src="images/logo.png" /></div>
+                </div>
+            </div>
+        </header>        
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">            
+                    <h2 class="text-main">I'm 
+                        <span class="name">Manuel</span>       
+                        , a game and software developer. Expert in using Unity, programming in C#, and developing 2D and 3D graphic software.
+                    </h2>
+                </div>
+            </div>
         </div>
 
-        <div class="links container">
+        <div class="links container my-5">
             <a href="mailto:plasol@live.com" target="_blank" title="email">
               <span class="contact-link">email</span>
             </a>
@@ -36,20 +46,22 @@
         </div>
 
         <div class="project container">
-            <div>
-                <img id="supermImg" src="images/SuperM_main_title.png">                
-            </div>
+            <div class="row">
+                <div class="col-sm-4">            
+                    <img id="supermImg" class="img-fluid" src="images/SuperM_main_title.png">  
+                </div>
 
-            <div>
-                <p>
-                    With Unity I created a 2D platform, it was a gift for my wedding guests. I made everything form scratch in less than a month. I took care of game desing, programming, animations, vfx, sound effects and music.
-                    <a href="docs/Curriculum Manuel Fabris EN 15_01_2025.pdf" target="_blank" title="curriculum">
-                        <span class="contact-link">Give it a try!</span>
-                      </a>
-                    <!--  
-                    <iframe frameborder="0" src="https://itch.io/embed/1931779?bg_color=ffffff&amp;fg_color=4BA1E0&amp;link_color=F3C211&amp;border_color=2e84c3" width="552" height="167"><a href="https://plasol.itch.io/super-manuel">Super Manuel by plasol</a></iframe>
-                    -->
-                </p>
+                <div class="col-sm-8">            
+                    <p class="text-main">
+                        With Unity I created a 2D platform, it was a gift for my wedding guests. I made everything form scratch in less than a month. I took care of game desing, programming, animations, vfx, sound effects and music.
+                        <a href="docs/Curriculum Manuel Fabris EN 15_01_2025.pdf" target="_blank" title="curriculum">
+                            <span class="contact-link">Give it a try!</span>
+                          </a>
+                        <!--  
+                        <iframe frameborder="0" src="https://itch.io/embed/1931779?bg_color=ffffff&amp;fg_color=4BA1E0&amp;link_color=F3C211&amp;border_color=2e84c3" width="552" height="167"><a href="https://plasol.itch.io/super-manuel">Super Manuel by plasol</a></iframe>
+                        -->
+                    </p>
+                </div>
             </div>
         </div>
     
