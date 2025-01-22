@@ -57,7 +57,7 @@
 
 
 .body {
-  background-color: #1d3667;
+  background-color: #10203f;
   /*font-family: Raleway, "Source Sans Pro", Helvetica, Arial, sans-serif;*/
   font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
 }
@@ -65,14 +65,11 @@
 .text-main {
   color: rgb(255, 255, 255);
 
-  line-height: 1.2;
   font-weight: 300;
-  font-size: 2.5em;
 }
 
 #imageLogo {
-  width: 900;
-  height: 600;
+  max-height: 300px;
 }
 
 #supermImg {
