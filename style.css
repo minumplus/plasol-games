@@ -63,9 +63,17 @@
 }
 
 .text-main {
-  color: rgb(255, 255, 255);
+  color: rgb(234, 234, 234);
 
   font-weight: 300;
+}
+
+.title {
+  color: rgb(234, 234, 234);
+}
+
+.sub-title {
+  color: rgb(234, 234, 234);
 }
 
 #imageLogo {
