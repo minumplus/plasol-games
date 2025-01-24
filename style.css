@@ -36,10 +36,13 @@
 
 .accent-text-color {
   color: #6d2b80;
+  /* text-decoration-color: #6d2b80;
+  text-decoration-line: underline; */
 }
 
 .accent-text-color:hover {
   color: #a36db2;
+  text-decoration-color: #a36db2;
   transition: 0.3s;
 }
 
@@ -64,13 +67,13 @@
 
 .name {
   font-weight:700;
-  transition: 0.7s;
+  /* transition: 0.7s; */
 }
 
-.name:hover {
+/* .name:hover {
   background-color: rgb(234, 234, 234);
   transition: 0.3s;
-}
+} */
 
 .title-hover-transition {
   transition: 1s;
@@ -81,6 +84,26 @@
   /* background-color: rgb(234, 234, 234); */
   text-shadow: 2px 2px 4px #000000;
   transition: 0.3s;
+}
+
+
+.subtitle-hover-transition {
+  transition: 0.3s;
+}
+
+.subtitle-hover-transition:hover {
+  /* background-color: rgb(234, 234, 234); */
+  text-shadow: 2px 2px 4px #000000;
+  transition: 0.3s;
+}
+
+li {
+  transition: 0.1s;
+}
+
+li:hover {
+  font-weight: bold;
+  transition: 0.1s;
 }
 
 /*   .container {
