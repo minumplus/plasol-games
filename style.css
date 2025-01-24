@@ -60,7 +60,6 @@
 #supermImg {
   width: 600;
   height: 375;
-  border-color: white;
   border-style: solid;
   border-width: 8;
 }
@@ -86,7 +85,6 @@
   transition: 0.3s;
 }
 
-
 .subtitle-hover-transition {
   transition: 0.3s;
 }
@@ -96,6 +94,26 @@
   text-shadow: 2px 2px 4px #000000;
   transition: 0.3s;
 }
+
+.blur-hover-transition {
+  transition: 0.3s;
+}
+
+.blur-hover-transition:hover {
+  text-shadow: 2px 2px 10px white;
+  transition: 0.3s;
+}
+
+.border-color-hover-transition {
+  border-color: #31469b;
+  transition: 0.3s;
+}
+
+.border-color-hover-transition:hover {
+  border-color: white;
+  transition: 0.3s;
+}
+
 
 li {
   transition: 0.1s;
@@ -112,7 +130,6 @@ li:hover {
 } */
 
 .contact-link {
-  text-transform: uppercase;
   font-weight: 700;
 
   font-size: 1.5rem;
