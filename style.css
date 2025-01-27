@@ -65,9 +65,10 @@
 }
 
 .project-img {
+  /* width: 600;
+  height: 375; */
+
   border-color: white;
-  width: 600;
-  height: 375;
   border-style: solid;
   border-width: 8;
 }
