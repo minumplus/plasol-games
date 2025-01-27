@@ -64,7 +64,8 @@
   max-height: 300px;
 }
 
-#supermImg {
+.project-img {
+  border-color: white;
   width: 600;
   height: 375;
   border-style: solid;
