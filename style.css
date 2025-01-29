@@ -1,11 +1,13 @@
 
 :root {
+  --text: #a69cd0;
   --background: #090029;
   --primary: #FFFFFF;
   /* --card: rgb(63, 50, 162, 0.2); */
   --card: #1A0041;
   --secondary: #4d319b;
-  --accent: #C604FF;
+  --accent: #df75ff;
+  --accent_hover: rgb(214, 185, 222);
 }
 
 .body {
@@ -15,19 +17,19 @@
 }
 
 .primary-bg-color {
-  background-color: var(--background)
+  background-color: var(--background);
 }
 
 .card-bg-color {
-  background-color: var(--card)
+  background-color: var(--card);
 }
 
 .secondary-bg-color {
-  background-color: var(--secondary)
+  background-color: var(--secondary);
 }
 
 .accent-bg-color {
-  background-color: var(--accent)
+  background-color: var(--accent);
 }
 
 .primary-text-color {
@@ -49,14 +51,28 @@
 }
 
 .accent-text-color:hover {
-  color: #a36db2;
-  text-decoration-color: #a36db2;
+  color: var(--accent_hover);
+  text-decoration-color: var(--accent_hover);
+  transition: 0.3s;
+}
+
+.link-button {
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--accent); 
+  border: 1px solid var(--accent);
+}
+
+
+.link-button:hover {
+  /* background-color: var(--accent); */
+  color: var(--accent_hover);
+  border-color: var(--accent_hover);
   transition: 0.3s;
 }
 
 
 .text-main {
-  color: #675D93;
+  color: var(--text);
 
   font-weight: 300;
 }
@@ -175,15 +191,11 @@ li:hover {
   height: 52px;
 }
 
-.custom-shape-divider-bottom-1668521282 .shape-fill {
-  fill: var(--background);
-}
-
-main > section:nth-of-type(even) .custom-shape-divider-bottom-1668521282 .shape-fill {
+.fill-background {
   fill: var(--background);
 }
 
 
-.onda-card-bg {
-  fill: var(--card) !important;
+.fill-card {
+  fill: var(--card);
 }
